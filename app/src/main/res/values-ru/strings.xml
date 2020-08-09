@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Простой трекер</string>
+    <string name="title_activity_maps">Простой трекер</string>
+    <string name="settings">Настройки</string>
+    <string name="start">Старт</string>
+    <string name="stop">Конец</string>
+    <string name="type">Тип карты</string>
+    <string name="normal">Обычная</string>
+    <string name="hybrid">Гибрид</string>
+    <string name="satellite">Спутник</string>
+    <string name="period">Обновление (секунды)</string>
+    <string name="distance">Расстояние</string>
+    <string name="time">Время</string>
+    <string name="speed">Скорость</string>
+    <string name="nopermission">Нет разрешения на геолокацию</string>
+    <string name="preferences">Настройки</string>
+    <string name="addpermission">У приложения нет разрешения на работу служб геолокации. Вы можете добавить разрешение в системных настройках приложения.</string>
+    <string name="info">Информация</string>
+    <string name="noroute">На карте нет маршрута</string>
+    <string name="newroute">Новый маршрут</string>
+    <string name="alreadyrunning">Трекер уже запущен. Начать новый маршрут с этой точки?</string>
+    <string name="cancel">Отмена</string>
+    <string name="dimensions">Единицы измерения</string>
+    <string name="meters">м</string>
+    <string name="km">км</string>
+    <string name="miles">мили</string>
+    <string name="metersps">м/с</string>
+    <string name="kmph">км/ч</string>
+    <string name="mph">мили/ч</string>
+    <string name="alreadystopped">Трекер уже остановлен</string>
+    <string name="run">Трекер работает</string>
+</resources>

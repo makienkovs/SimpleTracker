@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">SimpleTracker</string>
+    <string name="title_activity_maps">SimpleTracker</string>
+    <string name="settings">Settings</string>
+    <string name="start">Start</string>
+    <string name="stop">End</string>
+    <string name="type">Type of the map</string>
+    <string name="normal">Normal</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="satellite">Satellite</string>
+    <string name="period">Update (seconds)</string>
+    <string name="distance">Distance</string>
+    <string name="time">Time</string>
+    <string name="speed">Speed</string>
+    <string name="nopermission">No permission for geolocation</string>
+    <string name="preferences">Preferences</string>
+    <string name="addpermission">No permission for geolocation, add permission in device preferences for ability to work.</string>
+    <string name="info">Information</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="noroute">No route on the map</string>
+    <string name="newroute">Start new route</string>
+    <string name="alreadyrunning">Tracker is already running. Start a new route from this location?</string>
+    <string name="cancel">Cancel</string>
+    <string name="dimensions">Type of dimensions units</string>
+    <string name="meters">m</string>
+    <string name="km">km</string>
+    <string name="miles">miles</string>
+    <string name="metersps">m/s</string>
+    <string name="kmph">km/h</string>
+    <string name="mph">mph</string>
+    <string name="alreadystopped">Tracker is already stopped</string>
+    <string name="run">Tracker is running</string>
+</resources>
