@@ -57,11 +57,11 @@ public class TrackService extends Service implements LocationListener {
         new Thread(() -> {
             while (run) {
                 try {
-                    Thread.sleep(period);
                     if (imHere != null && MapsActivity.positions != null) {
                         MapsActivity.positions.add(new Position(imHere));
                         Log.d("Service add a point:", "Lat " + imHere.getLatitude() + " , Long " + imHere.getLongitude());
                     }
+                    Thread.sleep(period);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -69,7 +69,7 @@ public class TrackService extends Service implements LocationListener {
             Log.d("...", "Service stopSelf");
             stopSelf();
         }).start();
-        return Service.START_NOT_STICKY;
+        return Service.START_STICKY;
     }
 
     @Override
